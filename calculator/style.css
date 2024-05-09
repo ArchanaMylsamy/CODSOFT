@@ -7,7 +7,8 @@
 }
 .head{
     align-items: center;
-    color: white;
+    color: rgb(7, 0, 0);
+    /* background-color: wheat; */
     font-family: 'Times New Roman', Times, serif;
     padding-left: 45%;
     margin-top: 10px;
@@ -23,10 +24,13 @@ a {
 }
 
 body {
-    background-image: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/blank-notepad-calculator-copy-space_23-2148475383.jpg?t=st=1715265506~exp=1715269106~hmac=a6e9387637f779086adcf8b6c5811748f89fede0deebf1a3602caada7e404bc5&w=900);
 }
 
 .container {
+    margin-left: 20%;
     height: 100vh;
     width: 100vw;
     display: grid;
